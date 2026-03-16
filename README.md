@@ -25,16 +25,6 @@ todosPassaram = all (>= 7) notas
 alguemGabaritou = any (== 10) notas
 -- Resultado: True
 ```
-Também temos a função zipWith (Combinação de Listas). Ela une duas listas elemento por elemento usando uma função de combinação que você define.
-```Haskell
-listaA = [1, 2, 3]
-listaB = [10, 20, 30]
-
--- Multiplica os elementos de A pelos de B na mesma posição
-resultado = zipWith (*) listaA listaB
--- Resultado: [10, 40, 90]
-```
-
 # Exemplos dessas funções em Javascript
 No JS, os equivalentes para all e any são os métodos .every() e .some().
 ```Javascript
@@ -48,3 +38,14 @@ const todosPassaram = notas.every(n => n >= 7);
 const alguemGabaritou = notas.some(n => n === 10);
 // Resultado: true
 ```
+Também temos a função zipWith (Combinação de Listas). Ela une duas listas elemento por elemento usando uma função de combinação que você define.
+```Haskell
+listaA = [1, 2, 3]
+listaB = [10, 20, 30]
+
+-- Multiplica os elementos de A pelos de B na mesma posição
+resultado = zipWith (*) listaA listaB
+-- Resultado: [10, 40, 90]
+```
+
+
