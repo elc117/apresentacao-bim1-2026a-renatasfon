@@ -8,12 +8,12 @@ Uma função lambda é uma função anônima, ou seja, uma função sem nome, us
 Em Haskell, lambdas são escritas usando \.
 
 # *Exemplo de funções em Haskell*
-any e all (Verificação Lógica)
+Any e All (Verificação Lógica)
 Estas funções recebem um predicado (uma função que retorna verdadeiro ou falso) e uma lista.
 
-all: Retorna True apenas se todos os elementos satisfizerem a condição.
+All: Retorna True apenas se todos os elementos satisfizerem a condição.
 
-any: Retorna True se pelo menos um elemento satisfizer a condição.
+Any: Retorna True se pelo menos um elemento satisfizer a condição.
 ```Haskell
 notas = [8, 9, 7, 10, 5]
 
@@ -25,6 +25,7 @@ todosPassaram = all (>= 7) notas
 alguemGabaritou = any (== 10) notas
 -- Resultado: True
 ```
+
 # Exemplos dessas funções em Javascript
 No JS, os equivalentes para all e any são os métodos .every() e .some().
 ```Javascript
@@ -38,7 +39,8 @@ const todosPassaram = notas.every(n => n >= 7);
 const alguemGabaritou = notas.some(n => n === 10);
 // Resultado: true
 ```
-Também temos a função zipWith (Combinação de Listas). Ela une duas listas elemento por elemento usando uma função de combinação que você define.
+
+Também temos a função zipWith (Combinação de Listas) na linguagem Haskell. Ela une duas listas elemento por elemento usando uma função de combinação que você define.
 ```Haskell
 listaA = [1, 2, 3]
 listaB = [10, 20, 30]
