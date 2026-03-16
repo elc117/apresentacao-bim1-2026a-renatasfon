@@ -54,4 +54,10 @@ resultado = zipWith (*) listaA listaB
 Crie uma função hasEqHeads :: [Int] -> [Int] -> Boolque verifique se 2 listas possuem o mesmo primeiro elemento. Use uma função heade o operador lógico ==para verificar a igualdade.
 ![Exercício 9](gif1.gif)
 
+Escreva uma função onlyEvenque receba uma lista de números inteiros e retorne somente aqueles que forem pares. Agora é com você a definição da tipagem da função!
+![Exercício 5](gif2.gif)
+
+Escreva uma função onlyBetween60and80que receba uma lista de números e retorne somente os que estiverem entre 60 e 80, inclusive. Você deve criar uma função auxiliar between60and80e usar &&para expressar o operador " E " lógico em Haskell.
+![Exercício 6](gif3.gif)
+
 
