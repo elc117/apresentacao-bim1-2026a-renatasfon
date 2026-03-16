@@ -50,4 +50,8 @@ resultado = zipWith (*) listaA listaB
 -- Resultado: [10, 40, 90]
 ```
 
+# *Exercícios em Haskell*
+Crie uma função hasEqHeads :: [Int] -> [Int] -> Boolque verifique se 2 listas possuem o mesmo primeiro elemento. Use uma função heade o operador lógico ==para verificar a igualdade.
+![Exercicio 9 Lista 1] (gif1.gif)
+
 
