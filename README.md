@@ -64,7 +64,11 @@ Escreva uma função onlyBetween60and80que receba uma lista de números e retorn
 
 # *Fontes Consultadas*
 https://pt.wikibooks.org/wiki/Haskell/Lambdas_e_operadores
+
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+https://pt.wikipedia.org/wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)
+
 
 
 
