@@ -59,9 +59,12 @@ Escreva uma função onlyEvenque receba uma lista de números inteiros e retorne
 ![Exercício 5](gif2.gif)
 
 Escreva uma função onlyBetween60and80que receba uma lista de números e retorne somente os que estiverem entre 60 e 80, inclusive. Você deve criar uma função auxiliar between60and80e usar &&para expressar o operador " E " lógico em Haskell.
+
 ![Exercício 6](gif3.gif)
 
 # *Fontes Consultadas*
-https://pt.wikibooks.org/wiki/Haskell/
+https://pt.wikibooks.org/wiki/Haskell/Lambdas_e_operadores
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
 
 
