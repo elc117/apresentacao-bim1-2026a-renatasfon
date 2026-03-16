@@ -69,6 +69,8 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
 https://pt.wikipedia.org/wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)
 
+https://pt.stackoverflow.com/questions/255152/haskell-fun%C3%A7%C3%B5es-de-ordem-superior
+
 
 
 
